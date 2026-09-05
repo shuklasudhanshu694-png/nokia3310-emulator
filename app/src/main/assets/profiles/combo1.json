@@ -1,0 +1,11 @@
+{
+  "name": "MT6261 Standard",
+  "cpu": "ARM7TDMI-S",
+  "clock_mhz": 52,
+  "rom_kb": 512,
+  "ram_kb": 512,
+  "xram_kb": 1024,
+  "flash_mb": 256,
+  "display": "ILI9488 320x480",
+  "notes": "Default profile matching the spec baseline."
+}

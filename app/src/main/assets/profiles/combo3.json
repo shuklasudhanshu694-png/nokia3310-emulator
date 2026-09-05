@@ -1,0 +1,11 @@
+{
+  "name": "MT6261 High-Flash",
+  "cpu": "ARM7TDMI-S",
+  "clock_mhz": 52,
+  "rom_kb": 512,
+  "ram_kb": 512,
+  "xram_kb": 1024,
+  "flash_mb": 512,
+  "display": "ILI9488 320x480",
+  "notes": "Larger simulated NAND flash for storage-heavy firmware tests."
+}

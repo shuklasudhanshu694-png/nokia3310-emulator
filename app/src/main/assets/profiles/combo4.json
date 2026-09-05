@@ -1,0 +1,11 @@
+{
+  "name": "MT6261 Minimal RAM",
+  "cpu": "ARM7TDMI-S",
+  "clock_mhz": 52,
+  "rom_kb": 512,
+  "ram_kb": 256,
+  "xram_kb": 512,
+  "flash_mb": 256,
+  "display": "ILI9488 320x480",
+  "notes": "Reduced RAM/XRAM to stress-test tight-memory firmware."
+}

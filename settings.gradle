@@ -1,0 +1,2 @@
+rootProject.name = "Nokia3310_Emulator"
+include ':app'

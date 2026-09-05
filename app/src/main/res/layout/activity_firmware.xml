@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Button android:id="@+id/btnPick" android:text="Pick firmware file (.bin/.hex)" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <Button android:id="@+id/btnLoadTest" android:text="Load bundled test firmware" android:layout_marginTop="8dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <Button android:id="@+id/btnUnload" android:text="Unload firmware" android:layout_marginTop="8dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+    <TextView android:id="@+id/tvInfo" android:layout_marginTop="16dp" android:text="No firmware loaded"
+        android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+    <TextView android:id="@+id/tvChecksum" android:layout_marginTop="8dp" android:text=""
+        android:fontFamily="monospace" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+</LinearLayout>
